@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Michael Phelps",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Michael_Phelps_Rio_Olympics_2016.jpg",
+    "bio": "Michael Fred Phelps II (born June 30, 1985) is an American retired competitive swimmer and the most successful and most decorated Olympian of all time, with a total of 28 medals. Phelps also holds the all-time records for Olympic gold medals (23), Olympic gold medals in individual events (13), and Olympic medals in individual events (16). When he won eight gold medals at the 2008 Beijing Games, Phelps broke fellow American swimmer Mark Spitz's 1972 record of seven first-place finishes at any single Olympic Games. At the 2004 Summer Olympics in Athens, Phelps had already tied the record of eight medals of any color at a single Games by winning six gold and two bronze medals. At the 2012 Summer Olympics in London, Phelps won four gold and two silver medals, and at the 2016 Summer Olympics in Rio de Janeiro, he won five gold medals and one silver. This made him the most successful athlete of the Games for the fourth Olympics in a row.",
+    "skillset": {
+      "upperBody": 5,
+      "lowerBody": 4,
+      "endurance": 5,
+      "agility": 2,
+      "aesthetics": 1
+    },
+    "nativeDisciplines": [
+      "Swimming"
+    ]
+  },
+  {
+    "name": "Simone Biles",
+    "photo": "https://s.hdnux.com/photos/56/12/31/12101208/11/920x920.jpg",
+    "bio": "Simone Arianne Biles (born March 14, 1997) is an American artistic gymnast. Biles is the 2016 Olympic individual all-around, vault and floor gold medalist, and balance beam bronze medalist. She was part of the gold medal-winning team dubbed the \"Final Five\" at the 2016 Summer Olympics in Rio de Janeiro. Biles is a three-time world all-around champion (2013–15), three-time world floor champion (2013–15), two-time world balance beam champion (2014, 2015), four-time United States national all-around champion (2013–16), and a member of the gold medal-winning American teams at the 2014 and 2015 World Artistic Gymnastics Championships. She also won the bronze medal for vault at the 2015 World Championships. Having won a combined total of nineteen Olympic and World Championship medals, Biles is the most decorated American gymnast, taking over from Shannon Miller, who had held this record since 1993. With her win in Rio, Biles became the sixth woman to have won an individual all-around title at both the World Championships and the Olympic Games. With four Olympic gold medals, Biles set an American record for most gold medals in women’s gymnastics at a single Games. Her accomplishments have led many of her peers as well as the media to refer to her as the greatest gymnast ever.",
+    "skillset": {
+      "upperBody": 2,
+      "lowerBody": 4,
+      "endurance": 2,
+      "agility": 4,
+      "aesthetics": 5
+    },
+    "nativeDisciplines": [
+      "Gymnastic (artistic)",
+      "Gymnastics (rhythmic)",
+      "Gymnastics (trampoline)"
+    ]
+  },
+  {
+    "name": "Serena Williams",
+    "photo": "https://v.wpimg.pl/ODk2Mi5qJi1EBHVZTV48IhxCYx5FEisqRUIhRkYWEDcbVy4AVB07IQpBKBtqGWBxClN7CwdAfnZZUSxdAy5-dFsKdVADQ2EuG1U=",
+    "bio": "Serena Jameka Williams (born September 26, 1981) is an American professional tennis player. The Women's Tennis Association (WTA) ranked her world No. 1 in singles on eight separate occasions between 2002 and 2017. She reached the No. 1 ranking for the first time on July 8, 2002. On her sixth occasion, she held the ranking for 186 consecutive weeks, tying the record set by Steffi Graf for the most consecutive weeks as No. 1 by a female tennis player. In total, she has been No. 1 for 319 weeks, which ranks third in the Open Era among female players behind Graf and Martina Navratilova. Some commentators, players and sports writers regard her as the greatest female tennis player of all time. On April 19, 2017, she announced a hiatus from tennis until 2018 because of pregnancy.",
+    "skillset": {
+      "upperBody": 4,
+      "lowerBody": 3,
+      "endurance": 3,
+      "agility": 3,
+      "aesthetics": 1
+    },
+    "nativeDisciplines": [
+      "Tennis"
+    ]
+  },
+  {
+    "name": "Muhammad Ali",
+    "photo": "https://i2-prod.mirror.co.uk/incoming/article10251192.ece/ALTERNATES/s1200/PROD-Muhammad-Ali-aka-Cassius-Clay-Boxer-photo-shoot.jpg",
+    "bio": "Muhammad Ali (/ɑːˈliː/; born Cassius Marcellus Clay Jr.; January 17, 1942 – June 3, 2016) was an American professional boxer, activist and philanthropist. He is widely regarded as one of the most significant and celebrated sports figures of the 20th century. From early in his career, Ali was known as an inspiring, controversial, and polarizing figure both inside and outside the ring.",
+    "skillset": {
+      "upperBody": 5,
+      "lowerBody": 3,
+      "endurance": 4,
+      "agility": 4,
+      "aesthetics": 2
+    },
+    "nativeDisciplines": [
+      "Boxing"
+    ]
+  }
+]

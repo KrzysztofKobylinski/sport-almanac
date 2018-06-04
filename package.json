@@ -1,0 +1,26 @@
+{
+  "name": "junior-dev-assignment",
+  "version": "1.0.0",
+  "description": "Assignment for junior front-end developer position at Bevy",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "16.2.0",
+    "react-dom-factories": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "bestzip": "1.1.4",
+    "coffeescript": "^2.3.1",
+    "parcel-bundler": "^1.6.1",
+    "prop-types": "^15.6.1",
+    "stylus": "^0.54.5"
+  },
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html",
+    "zip": "bestzip assignment.zip src/ assets/ index.html package.json instructions.md"
+  }
+}

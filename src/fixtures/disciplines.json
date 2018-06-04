@@ -1,0 +1,652 @@
+[
+    {
+        "name": "Diving",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Diving_pictogram.svg/300px-Diving_pictogram.svg.png",
+        "isIndividual" :true,
+        "tags": ["water"],
+        "requirements": {
+            "upperBody":1,
+            "lowerBody":2,
+            "endurance":1,
+            "agility":3,
+            "aesthetics":5
+        }
+    },
+    {
+        "name": "Marathon swimming",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Open_water_swimming_pictogram.svg/300px-Open_water_swimming_pictogram.svg.png",
+        "isIndividual" :true,
+        "tags": ["water"],
+        "requirements": {
+            "upperBody":4,
+            "lowerBody":4,
+            "endurance":5,
+            "agility":2,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "Swimming",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Swimming_pictogram.svg/300px-Swimming_pictogram.svg.png",
+        "isIndividual" :true,
+        "tags": ["water"],
+        "requirements": {
+            "upperBody":4,
+            "lowerBody":4,
+            "endurance":4,
+            "agility":2,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "Synchronized swimming",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Synchronized_swimming_pictogram.svg/300px-Synchronized_swimming_pictogram.svg.png",
+        "isIndividual" :false,
+        "tags": ["water"],
+        "requirements": {
+            "upperBody":3,
+            "lowerBody":3,
+            "endurance":3,
+            "agility":4,
+            "aesthetics":4
+            }
+        },
+    {
+        "name": "Water polo",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Water_polo_pictogram.svg/300px-Water_polo_pictogram.svg.png",
+        "isIndividual" :false,
+        "tags": ["water", "ball"],
+        "requirements": {
+            "upperBody":4,
+            "lowerBody":4,
+            "endurance":4,
+            "agility":2,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "3-on-3 basketball",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/3x3_basketball_pictogram.svg/300px-3x3_basketball_pictogram.svg.png",
+        "isIndividual" :false,
+        "tags": ["ball"],
+        "requirements": {
+            "upperBody":3,
+            "lowerBody":3,
+            "endurance":3,
+            "agility":4,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "Basketball",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Basketball_pictogram.svg/300px-Basketball_pictogram.svg.png",
+        "isIndividual" :false,
+        "tags": ["ball"],
+        "requirements": {
+            "upperBody":3,
+            "lowerBody":3,
+            "endurance":3,
+            "agility":3,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "Canoe/kayak (sprint)",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Canoeing_%28flatwater%29_pictogram.svg/300px-Canoeing_%28flatwater%29_pictogram.svg.png",
+        "isIndividual" :true,
+        "tags": ["water", "riding"],
+        "requirements": {
+            "upperBody":5,
+            "lowerBody":2,
+            "endurance":4,
+            "agility":2,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "Canoe/kayak (slalom)",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Canoeing_%28slalom%29_pictogram.svg/300px-Canoeing_%28slalom%29_pictogram.svg.png",
+        "isIndividual" :true,
+        "tags": ["water", "riding"],
+        "requirements": {
+            "upperBody":5,
+            "lowerBody":1,
+            "endurance":4,
+            "agility":2,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "BMX freestyle",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/BMX_freestyle_pictogram.svg/300px-BMX_freestyle_pictogram.svg.png",
+        "isIndividual" :true,
+        "tags": ["riding"],
+        "requirements": {
+            "upperBody":2,
+            "lowerBody":5,
+            "endurance":3,
+            "agility":4,
+            "aesthetics":3
+        }
+    },
+    {
+        "name": "BMX racing",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Cycling_%28BMX%29_pictogram.svg/300px-Cycling_%28BMX%29_pictogram.svg.png",
+        "isIndividual" :true,
+        "tags": ["riding"],
+        "requirements": {
+            "upperBody":2,
+            "lowerBody":5,
+            "endurance":4,
+            "agility":2,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "Mountain biking",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Cycling_%28mountain_biking%29_pictogram.svg/300px-Cycling_%28mountain_biking%29_pictogram.svg.png",
+        "isIndividual" :true,
+        "tags": ["riding"],
+        "requirements": {
+            "upperBody":2,
+            "lowerBody":5,
+            "endurance":4,
+            "agility":2,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "Road cycling",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Cycling_%28road%29_pictogram.svg/300px-Cycling_%28road%29_pictogram.svg.png",
+        "isIndividual" :true,
+        "tags": ["riding"],
+        "requirements": {
+            "upperBody":1,
+            "lowerBody":5,
+            "endurance":4,
+            "agility":1,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "Track cycling",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Cycling_%28track%29_pictogram.svg/300px-Cycling_%28track%29_pictogram.svg.png",
+        "isIndividual" :true,
+        "tags": [],
+        "requirements": {
+            "upperBody":1,
+            "lowerBody":5,
+            "endurance":3,
+            "agility":1,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "Gymnastic (artistic)",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Gymnastics_%28artistic%29_pictogram.svg/300px-Gymnastics_%28artistic%29_pictogram.svg.png",
+        "isIndividual" :true,
+        "tags": [],
+        "requirements": {
+            "upperBody":2,
+            "lowerBody":2,
+            "endurance":3,
+            "agility":4,
+            "aesthetics":5
+        }
+    },
+    {
+        "name": "Gymnastics (rhythmic)",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Gymnastics_%28rhythmic%29_pictogram.svg/300px-Gymnastics_%28rhythmic%29_pictogram.svg.png",
+        "isIndividual" :true,
+        "tags": [],
+        "requirements": {
+            "upperBody":2,
+            "lowerBody":2,
+            "endurance":2,
+            "agility":4,
+            "aesthetics":5
+        }
+    },
+    {
+        "name": "Gymnastics (trampoline)",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Gymnastics_%28trampoline%29_pictogram.svg/300px-Gymnastics_%28trampoline%29_pictogram.svg.png",
+        "isIndividual" :true,
+        "tags": [],
+        "requirements": {
+            "upperBody":2,
+            "lowerBody":4,
+            "endurance":2,
+            "agility":4,
+            "aesthetics":4
+        }
+    },
+    {
+        "name": "Volleyball (beach)",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Volleyball_%28beach%29_pictogram.svg/300px-Volleyball_%28beach%29_pictogram.svg.png",
+        "isIndividual" :false,
+        "tags": ["ball"],
+        "requirements": {
+            "upperBody":3,
+            "lowerBody":3,
+            "endurance":3,
+            "agility":3,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "Volleyball (indoor)",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Volleyball_%28indoor%29_pictogram.svg/300px-Volleyball_%28indoor%29_pictogram.svg.png",
+        "isIndividual" :false,
+        "tags": ["ball"],
+        "requirements": {
+            "upperBody":3,
+            "lowerBody":3,
+            "endurance":3,
+            "agility":3,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "Equestrian / Dressage",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Equestrian_Dressage_pictogram.svg/600px-Equestrian_Dressage_pictogram.svg.png",
+        "isIndividual" :true,
+        "tags": ["riding"],
+        "requirements": {
+            "upperBody":2,
+            "lowerBody":3,
+            "endurance":2,
+            "agility":2,
+            "aesthetics":5
+        }
+    },
+    {
+        "name": "Equestrian / Eventing",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Equestrian_Eventing_pictogram.svg/600px-Equestrian_Eventing_pictogram.svg.png",
+        "isIndividual" :true,
+        "tags": ["riding"],
+        "requirements": {
+            "upperBody":2,
+            "lowerBody":3,
+            "endurance":2,
+            "agility":2,
+            "aesthetics":4
+        }
+    },
+    {
+        "name": "Equestrian / Jumping",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Equestrian_Jumping_pictogram.svg/600px-Equestrian_Jumping_pictogram.svg.png",
+        "isIndividual" :true,
+        "tags": ["riding"],
+        "requirements": {
+            "upperBody":2,
+            "lowerBody":3,
+            "endurance":2,
+            "agility":3,
+            "aesthetics":4
+        }
+    },
+    {
+        "name": "Freestyle wrestling",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Wrestling_Freestyle_pictogram.svg/600px-Wrestling_Freestyle_pictogram.svg.png",
+        "isIndividual" :true,
+        "tags": ["martial arts","1on1"],
+        "requirements": {
+            "upperBody":4,
+            "lowerBody":4,
+            "endurance":4,
+            "agility":4,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "Greco-Roman wrestling",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Wrestling_pictogram.svg/300px-Wrestling_pictogram.svg.png",
+        "isIndividual" :true,
+        "tags": ["martial arts","1on1"],
+        "requirements": {
+            "upperBody":4,
+            "lowerBody":4,
+            "endurance":4,
+            "agility":4,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "Archery",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Archery_pictogram.svg",
+        "isIndividual" :true,
+        "tags": [],
+        "requirements": {
+            "upperBody":3,
+            "lowerBody":1,
+            "endurance":1,
+            "agility":5,
+            "aesthetics":2
+        }
+    },
+    {
+        "name": "Athletics",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Athletics_pictogram.svg/300px-Athletics_pictogram.svg.png",
+        "isIndividual" :true,
+        "tags": [],
+        "requirements": {
+            "upperBody":1,
+            "lowerBody":5,
+            "endurance":4,
+            "agility":4,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "Badminton",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Badminton_pictogram.svg/300px-Badminton_pictogram.svg.png",
+        "isIndividual" :true,
+        "tags": ["ball","1on1"],
+        "requirements": {
+            "upperBody":2,
+            "lowerBody":3,
+            "endurance":3,
+            "agility":4,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "Baseball",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Baseball_pictogram.svg/300px-Baseball_pictogram.svg.png",
+        "isIndividual" :false,
+        "tags": ["ball"],
+        "requirements": {
+            "upperBody":2,
+            "lowerBody":3,
+            "endurance":2,
+            "agility":3,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "Boxing",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Boxing_pictogram.svg/300px-Boxing_pictogram.svg.png",
+        "isIndividual" :true,
+        "tags": ["martial-arts","1on1"],
+        "requirements": {
+            "upperBody":5,
+            "lowerBody":3,
+            "endurance":5,
+            "agility":4,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "Fencing",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Fencing_pictogram.svg/300px-Fencing_pictogram.svg.png",
+        "isIndividual" :true,
+        "tags": ["1on1"],
+        "requirements": {
+            "upperBody":4,
+            "lowerBody":2,
+            "endurance":3,
+            "agility":5,
+            "aesthetics":2
+        }
+    },
+    {
+        "name": "Field hockey",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Field_hockey_pictogram.svg/300px-Field_hockey_pictogram.svg.png",
+        "isIndividual" :false,
+        "tags": ["ball"],
+        "requirements": {
+            "upperBody":3,
+            "lowerBody":4,
+            "endurance":3,
+            "agility":3,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "Football",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Football_pictogram.svg/300px-Football_pictogram.svg.png",
+        "isIndividual" :false,
+        "tags": ["ball"],
+        "requirements": {
+            "upperBody":1,
+            "lowerBody":5,
+            "endurance":4,
+            "agility":3,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "Golf",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Golf_pictogram.svg/300px-Golf_pictogram.svg.png",
+        "isIndividual" :true,
+        "tags": ["ball"],
+        "requirements": {
+            "upperBody":2,
+            "lowerBody":2,
+            "endurance":1,
+            "agility":4,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "Handball",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Handball_pictogram.svg/300px-Handball_pictogram.svg.png",
+        "isIndividual" :false,
+        "tags": ["ball"],
+        "requirements": {
+            "upperBody":4,
+            "lowerBody":4,
+            "endurance":4,
+            "agility":3,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "Judo",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Judo_pictogram.svg/300px-Judo_pictogram.svg.png",
+        "isIndividual" :true,
+        "tags": ["martial arts","1on1"],
+        "requirements": {
+            "upperBody":4,
+            "lowerBody":4,
+            "endurance":4,
+            "agility":4,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "Karate",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Karate_icon.svg/175px-Karate_icon.svg.png",
+        "isIndividual" :true,
+        "tags": ["martial arts","1on1"],
+        "requirements": {
+            "upperBody":4,
+            "lowerBody":4,
+            "endurance":4,
+            "agility":4,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "Modern pentathlon",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Modern_pentathlon_pictogram.svg/300px-Modern_pentathlon_pictogram.svg.png",
+        "isIndividual" :true,
+        "tags": ["water","riding"],
+        "requirements": {
+            "upperBody":4,
+            "lowerBody":5,
+            "endurance":5,
+            "agility":4,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "Rowing",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Rowing_pictogram.svg/300px-Rowing_pictogram.svg.png",
+        "isIndividual" :false,
+        "tags": ["water","riding"],
+        "requirements": {
+            "upperBody":4,
+            "lowerBody":3,
+            "endurance":4,
+            "agility":2,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "Rugby sevens",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Rugby_Sevens_pictogram.svg/300px-Rugby_Sevens_pictogram.svg.png",
+        "isIndividual" :false,
+        "tags": ["ball"],
+        "requirements": {
+            "upperBody":3,
+            "lowerBody":4,
+            "endurance":4,
+            "agility":3,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "Sailing",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Sailing_pictogram.svg/300px-Sailing_pictogram.svg.png",
+        "isIndividual" :true,
+        "tags": ["water", "riding"],
+        "requirements": {
+            "upperBody":2,
+            "lowerBody":1,
+            "endurance":3,
+            "agility":4,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "Shooting",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Shooting_pictogram.svg/300px-Shooting_pictogram.svg.png",
+        "isIndividual" :true,
+        "tags": [],
+        "requirements": {
+            "upperBody":1,
+            "lowerBody":4,
+            "endurance":1,
+            "agility":5,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "Skateboarding",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Skateboarding_pictogram.svg/300px-Skateboarding_pictogram.svg.png",
+        "isIndividual" :true,
+        "tags": ["riding"],
+        "requirements": {
+            "upperBody":2,
+            "lowerBody":3,
+            "endurance":2,
+            "agility":4,
+            "aesthetics":4
+        }
+    },
+    {
+        "name": "Softball",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Softball_pictogram.svg/300px-Softball_pictogram.svg.png",
+        "isIndividual" :false,
+        "tags": ["ball"],
+        "requirements": {
+            "upperBody":2,
+            "lowerBody":3,
+            "endurance":2,
+            "agility":2,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "Sport climbing",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Climbing_pictogram.svg/300px-Climbing_pictogram.svg.png",
+        "isIndividual" :true,
+        "tags": [],
+        "requirements": {
+            "upperBody":4,
+            "lowerBody":4,
+            "endurance":3,
+            "agility":4,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "Surfing",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Surfing_pictogram.svg/300px-Surfing_pictogram.svg.png",
+        "isIndividual" :true,
+        "tags": [],
+        "requirements": {
+            "upperBody":2,
+            "lowerBody":3,
+            "endurance":3,
+            "agility":4,
+            "aesthetics":4
+        }
+    },
+    {
+        "name": "Table tennis",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Table_tennis_pictogram.svg/300px-Table_tennis_pictogram.svg.png",
+        "isIndividual" :true,
+        "tags": ["ball","1on1"],
+        "requirements": {
+            "upperBody":3,
+            "lowerBody":2,
+            "endurance":1,
+            "agility":5,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "Taekwondo",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Taekwondo_pictogram.svg/300px-Taekwondo_pictogram.svg.png",
+        "isIndividual" :true,
+        "tags": ["martial arts","1on1"],
+        "requirements": {
+            "upperBody":4,
+            "lowerBody":4,
+            "endurance":4,
+            "agility":4,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "Tennis",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Tennis_pictogram.svg/300px-Tennis_pictogram.svg.png",
+        "isIndividual" :false,
+        "tags": ["ball","1on1"],
+        "requirements": {
+            "upperBody":4,
+            "lowerBody":3,
+            "endurance":4,
+            "agility":4,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "Triathlon",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Triathlon_pictogram.svg/300px-Triathlon_pictogram.svg.png",
+        "isIndividual" :true,
+        "tags": ["water", "riding"],
+        "requirements": {
+            "upperBody":4,
+            "lowerBody":4,
+            "endurance":5,
+            "agility":2,
+            "aesthetics":1
+        }
+    },
+    {
+        "name": "Weightlifting",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Weightlifting_pictogram.svg/300px-Weightlifting_pictogram.svg.png",
+        "isIndividual" :true,
+        "tags": [],
+        "requirements": {
+            "upperBody":5,
+            "lowerBody":5,
+            "endurance":4,
+            "agility":1,
+            "aesthetics":1
+        }
+    }
+]

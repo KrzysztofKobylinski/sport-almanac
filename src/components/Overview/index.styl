@@ -1,0 +1,45 @@
+@import '../../libs/variables'
+.c-overview
+    margin sectionMargin
+    .label
+        font-family titleFont
+        color titleFontColor
+        font-size labelFontSize
+        padding 10px 0px
+        font-weight bold
+
+    .bio, .skillset
+        display flex 
+        flex-wrap wrap
+        padding 10px 0px
+        line-height: 1.5
+        color bodyFontColor
+        font-family bodyFont
+
+    .skill
+        padding 10px
+        margin-right 5px 
+        border-radius 3px
+
+    .normalSkill
+        border 2px solid titleFontColor
+        
+    .maxSkill
+        border 2px solid maxSkillBorderColor
+        background-color maxSkillBackgroundColor
+
+    .minSkill
+        border 2px solid minSkillBorderColor
+        background-color minSkillBackgroundColor
+
+    .assetphoto
+        margin-right 5px
+        width (dimensionOfPicture/4)
+        height (dimensionOfPicture/4)
+        background-size cover
+        background-repeat no-repeat
+        background-position center
+        background-color white
+        box-shadow imageShadow
+        border 2px solid titleFontColor
+        border-radius borderRadius
