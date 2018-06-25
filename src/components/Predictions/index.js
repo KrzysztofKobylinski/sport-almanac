@@ -47,7 +47,7 @@ export default class Predictions extends React.Component {
   }
 
   showOnlyIndividual = () => {
-    const filteredDisciplines = this.props.disciplines.filter(
+    const filteredDisciplines = this.state.disciplines.filter(
       a => a.isIndividual
     );
     this.setState(
@@ -56,12 +56,12 @@ export default class Predictions extends React.Component {
         isIndividual: "yes",
         activePanelNumber: ""
       },
-      () => (this.applySorting(), this.applyTags())
+      () => this.tagClick(this.state.tagFilter)
     );
   };
 
   showOnlyTeamSport = () => {
-    const filteredDisciplines = this.props.disciplines.filter(
+    const filteredDisciplines = this.state.disciplines.filter(
       a => !a.isIndividual
     );
     this.setState(
@@ -70,24 +70,19 @@ export default class Predictions extends React.Component {
         isIndividual: "no",
         activePanelNumber: ""
       },
-      () => (this.applySorting(), this.applyTags())
+      () => this.tagClick(this.state.tagFilter)
     );
   };
 
   showAllSports = () => {
     this.setState(
       {
-        disciplines: this.props.disciplines,
+        disciplines: this.state.disciplines,
         isIndividual: "default",
         activePanelNumber: ""
       },
-      () => (this.applySorting(), this.applyTags())
+      () => this.tagClick(this.state.tagFilter)
     );
-  };
-
-  applyTags = input => {
-    const { tagFilter } = this.state;
-    tagFilter === input ? this.tagClick(input) : null;
   };
 
   getUniqueTags = () => {
@@ -96,19 +91,26 @@ export default class Predictions extends React.Component {
       .concat(...tagArray)
       .map(tag => tag.replace("-", " "))
       .filter((el, i, arr) => arr.indexOf(el) === i)
-      .sort((a, b) => a.localeCompare(b));
+      .sort((a, b) => a.localeCompare(b)); 
     return arrayOfUniqueTags;
   };
 
-  tagClick = input => e => {
-    const { disciplines } = this.props;
+  tagClick = input => {
+    console.log("TAG KLIK!")
+    const { disciplines } = this.state;
+    console.log(disciplines)
     if (input !== "default") {
-      const filteredByTags = disciplines.map(a =>
-        a.tags.filter(a => a === input)
+      const filteredByTags = disciplines
+        .map(a => a.tags
+        .filter(a => a === input)
       );
-      const disciplinesFilteredByTags = disciplines.filter(
-        (discipline, index) => filteredByTags[index] == input
+      console.log(filteredByTags)
+
+      const disciplinesFilteredByTags = disciplines
+        .filter((discipline, index) => filteredByTags[index] == input
       );
+      console.log(disciplinesFilteredByTags)
+
       this.setState(
         {
           disciplines: disciplinesFilteredByTags,
@@ -187,13 +189,13 @@ export default class Predictions extends React.Component {
         <span className="label">Filter tags:</span>
         <div className="buttonsection">
           <ToggleButtonGroup type="radio" name="options" defaultValue={0}>
-            <ToggleButton onClick={this.tagClick("default")} value={0} key={0}>
+            <ToggleButton onClick={() => this.tagClick("default")} value={0} key={0}>
               Show All
             </ToggleButton>
             {this.getUniqueTags().map((tag, index) => {
               return (
                 <ToggleButton
-                  onClick={this.tagClick(tag)}
+                  onClick={() => this.tagClick(tag)}
                   value={index + 1}
                   key={index + 1}
                 >

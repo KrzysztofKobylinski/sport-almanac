@@ -41,6 +41,7 @@ export default class HintTable extends React.Component {
   };
 
   getHints = whichExtreme => {
+    
     const { athlete, disciplines } = this.props;
 
     const sortedDisciplines = disciplines
@@ -75,6 +76,7 @@ export default class HintTable extends React.Component {
         </thead>
         <tbody>
           {this.getHints(whichExtreme).map((discipline, index) => {
+            
             return (
               <tr key={discipline.name}>
                 <td>{discipline.name}</td>
